@@ -1,7 +1,8 @@
-name: Decompresser 
+name: Decompresser
 on:
   push:
     paths: ['*.zip']
+  workflow_dispatch:
 permissions:
   contents: write
 jobs:
